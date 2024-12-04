@@ -4,8 +4,6 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
-  annotations:
-    notifications.argoproj.io/subscribe.on-deployment
 spec:
   replicas: 3
   selector:
